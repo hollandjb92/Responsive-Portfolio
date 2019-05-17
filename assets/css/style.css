@@ -190,3 +190,94 @@ button:active {
   padding: 0.625rem;
   font-weight: 200;
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 980px) {
+
+  .main-about-section,
+  .portfolio-section,
+  .contact-info-section {
+    width: 70%;
+    margin-left: 40px;
+  }
+
+  .main-about-section .container,
+  .portfolio-section .container,
+  .contact-info-section .container {
+    padding-right: 30px
+  }
+
+  textarea {
+    width: 98%;
+  }
+
+  .name-header {
+    left: 40px;
+  }
+
+  .nav-items {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .main-about-section,
+  .portfolio-section,
+  .contact-info-section {
+    width: 93%;
+
+  }
+
+  .nav-items {
+    margin-right: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+  .main-about-section,
+  .portfolio-section,
+  .contact-info-section {
+    width: 95%;
+    margin: auto;
+  }
+
+  .navbar {
+    position: static;
+  }
+
+  .name-header {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: auto;
+  }
+
+  nav {
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #cccccc;
+  }
+
+  .nav-items span,
+  .nav-items a {
+    position: relative;
+    bottom: 30px;
+  }
+
+  .portfolio-container {
+    float: none;
+    clear: both;
+    width: 70%;
+    margin: auto;
+
+  }
+
+}
